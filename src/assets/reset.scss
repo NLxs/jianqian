@@ -1,0 +1,23 @@
+@import "~@/assets/helper.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button, input {
+  font: $font-hei;
+} 
+
+:focus {
+  outline: none;
+}
